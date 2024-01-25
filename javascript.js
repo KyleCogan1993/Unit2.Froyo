@@ -4,7 +4,7 @@
  */
 function getInput() {
     let userInput = prompt("Please enter ice cream flavors");
-    return userInput.split(" ");
+    return userInput.split(",");
 }
 
 /**
